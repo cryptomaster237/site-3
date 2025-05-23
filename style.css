@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: column; /* Dispose les éléments en colonne */
+    align-items: center; /* Centre les éléments horizontalement */
+}
+
+.icon {
+    width: 80px; /* Ajustez la taille de l'icône selon vos besoins */
+    height: auto;
+}
+
+.text-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    margin-top: 5px; /* Assure un espacement entre l'icône et le texte */
+    text-align: center;
+}
